@@ -1,4 +1,3 @@
-Sure! Let’s go through a **solid, clear overview** of **AWS DMS (Database Migration Service)**:
 
 ---
 
@@ -168,10 +167,4 @@ Suppose you want to migrate an Oracle database from on-premises to AWS Aurora Po
 
 ---
 
-# ✋ Would you like next:
 
-- A **hands-on mini DMS project**? (e.g., Oracle → PostgreSQL with step-by-step)
-- A **diagram** showing how DMS fits with Kafka and Debezium?
-
-Just say "**show mini project**" or "**show architecture**"! 🚀  
-I'll prepare it for you!
