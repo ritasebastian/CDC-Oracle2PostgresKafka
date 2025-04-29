@@ -46,7 +46,9 @@ Then pull the image:
 ```bash
 docker pull container-registry.oracle.com/database/free:23.3.0
 ```
-
+```bash
+docker pull gvenzl/oracle-xe
+```
 ✅ This will download the lightweight Oracle 23c Free version (~2-3 GB).
 
 ---
@@ -61,7 +63,12 @@ docker run -d --name oracle-free \
   -e ORACLE_PWD=Oracle123 \
   container-registry.oracle.com/database/free:23.3.0
 ```
-
+```bash
+docker run -d --name oracle-xe \
+  -p 1521:1521 \
+  -e ORACLE_PASSWORD=Oracle123 \
+  gvenzl/oracle-xe
+```
 | Setting  | Value |
 |----------|-------|
 | Container Name | `oracle-free` |
